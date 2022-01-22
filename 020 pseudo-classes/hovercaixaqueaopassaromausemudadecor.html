@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exempo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+            /*tudo que estiver dentro do páragrafo não vai aparecer*/
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+            /*configurando o páragrafo*/
+        }
+
+        div:hover {
+            color:red;
+            /*configurando a div (neste caso o texto da div)*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mause sobre o texto abaixo </p>
+    <div>
+        passe o mause aqui
+        <p>texto escondido...</p>
+    </div>
+</body>
+</html>

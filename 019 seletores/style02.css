@@ -1,0 +1,13 @@
+@charset "UTF -8";
+
+body {
+    background-color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cabeçalho {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 3em;
+    color: brown;
+}

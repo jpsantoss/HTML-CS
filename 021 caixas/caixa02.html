@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:  rgb(167, 167, 167);
+        }
+        header { 
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: lightgreen;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 100px;
+        }
+        nav:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside { 
+            background-color: rgb(184, 183, 183);
+        }
+        footer {
+            background-color: black ;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+<section id="assuntos">
+    <article>
+        <h2>Notícias sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis temporibus nihil asperiores aperiam minima error provident odio assumenda blanditiis! Ipsum ut consectetur necessitatibus architecto expedita eos eaque quas optio impedit!</p>
+        <aside>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, aliquam! Odit ducimus nihil cumque error, hic provident rerum corrupti accusantium eveniet quia corporis sed aliquid odio illum quae debitis nulla.</p>
+        </aside>
+    </article>
+</section>
+    </main>
+    <footer>
+        Desemvolvido pelo Curso em Video
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

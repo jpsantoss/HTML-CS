@@ -1,0 +1,20 @@
+@charset "UTF -8";
+
+body {
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#principal {
+    text-align: center;
+    background-color: green;
+    color:rgb(6, 77, 77);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(1, 27, 27);
+}
